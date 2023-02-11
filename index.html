@@ -33,15 +33,15 @@
             <th scope="row">Monday</th>
             <td class="d-flex">
               <div>
-                <input class="number-input" type="number" name="" id="monday-hours" />
+                <input class="number-input" value="8" type="number" name="" id="monday-hours" />
               </div>
               <h4 class="me-2">:</h4>
               <div>
-                <input class="number-input" type="number" name="" id="monday-minute" />
+                <input class="number-input" value="00" type="number" name="" id="monday-minute" />
               </div>
               <div>
-                <select class="am-pm" name="am" id="">
-                  <option value="AM">AM</option>
+                <select class="am-pm" name="am" id="monday-starting-am-pm">
+                  <option selected value="AM">AM</option>
                   <option value="PM">PM</option>
                 </select>
               </div>
@@ -50,16 +50,16 @@
             <td>
               <div class="d-flex">
                 <div>
-                  <input class="number-input" type="number" name="" id="monday-ending-hours" />
+                  <input class="number-input" value="5" type="number" name="" id="monday-ending-hours" />
                 </div>
                 <h4 class="me-2">:</h4>
                 <div>
-                  <input class="number-input" type="number" name="" id="monday-ending-minute" />
+                  <input class="number-input"  value="00" type="number" name="" id="monday-ending-minute" />
                 </div>
                 <div>
-                  <select class="am-pm" name="am" id="">
+                  <select class="am-pm" name="" id="monday-ending-am-pm">
                     <option value="AM">AM</option>
-                    <option value="PM">PM</option>
+                    <option selected value="PM">PM</option>
                   </select>
                 </div>
               </div>
@@ -67,17 +67,17 @@
             <td>
               <div class="d-flex">
                 <div>
-                  <input class="number-input" type="number" name="" id="monday-break-hours" />
+                  <input class="number-input"  value="0" type="number" name="" id="monday-break-hours" />
                 </div>
                 <h4 class="me-2">:</h4>
                 <div>
-                  <input class="number-input" type="number" name="" id="monday-break-minute" />
+                  <input class="number-input"  value="00" type="number" name="" id="monday-break-minute" />
                 </div>
               </div>
             </td>
 
             <td>
-              <span>00</span>
+              <span id="monday-total">1</span>
             </td>
           </tr>
 
