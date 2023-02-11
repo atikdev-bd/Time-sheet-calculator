@@ -1,15 +1,30 @@
-.number-input{
-    width: 40px;
-    margin-right: 10px;
-}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
-    
+}
+
+.number-input{
+    width: 40px;
+    margin-right: 10px;
 }
 
 .am-pm{
     width: 60px;
     height: 29px;
+}
+
+.day{
+    background-color: rgb(50, 57, 105);
+    color: rgb(209, 203, 206);
+}
+
+.Tuesday{
+    background-color: rgb(245, 245, 245);
+}
+
+.t-footer{
+    background-color: rgb(237, 237, 237);
+    color: rgb(85, 84, 86);
+    font-size: 22px;
 }

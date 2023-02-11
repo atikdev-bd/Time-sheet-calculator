@@ -14,287 +14,409 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <h1 class="text-primary">this is my projects</h1>
+  <body class="mx-5">
+    <h1 class="text-primary my-2">Time Sheet Calculator</h1>
 
-    <table class="table">
-      <thead>
-        <tr class="bg-primary-subtle">
-          <th scope="col">Day</th>
-          <th scope="col">Statig Time</th>
-          <th scope="col">Ending Time</th>
-          <th scope="col">Break Dedication</th>
-          <th scope="col">Total</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Monday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
+    <div>
+      <table class="table">
+        <thead>
+          <tr class="day p-2">
+            <th scope="col">Day</th>
+            <th scope="col">Starting Time</th>
+            <th scope="col">Ending Time</th>
+            <th scope="col">Break Deduction</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Monday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="monday-hours" />
+              </div>
+              <h4 class="me-2">:</h4>
+              <div>
+                <input class="number-input" type="number" name="" id="monday-minute" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
 
-          <td>
-           <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-          <td>@mdo</td>
-          <td>@mdo</td>
-        </tr>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="monday-ending-hours" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="monday-ending-minute" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="monday-break-hours" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="monday-break-minute" />
+                </div>
+              </div>
+            </td>
 
-        <tr>
-          <th scope="row">Tuesday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
 
-          <td>
-             <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-          <td>@fat</td>
-        </tr>
+          <tr class="Tuesday">
+            <th scope="row">Tuesday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <h4 class="me-2">:</h4>
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
 
-        <tr>
-          <th scope="row">Wednesday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
-          <td>
-             <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-        </tr>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+              </div>
+            </td>
 
-        <tr>
-          <th scope="row">Thusrsday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
 
-          <td>
-             <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select  class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-        </tr>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="time-input" />
+              </div>
+              <h4 class="me-2">:</h4>
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
 
-        <tr>
-          <th scope="row">Friday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select  class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
-          <td>
-             <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select  class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-        </tr>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+              </div>
+            </td>
 
-        <tr>
-          <th scope="row">Satruday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select  class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
 
-          <td>
-             <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select  class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-        </tr>
+          <tr class="Tuesday">
+            <th scope="row">Thusrsday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <h4 class="me-2">:</h4>
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
 
-        <tr>
-          <th scope="row">Sunday</th>
-          <td class="d-flex">
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
 
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select  class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-          </td>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+              </div>
+            </td>
 
-          <td>
-             <div class="d-flex">
-             <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <h4 class="me-2">:</h4>
-            <div>
-              <input class="number-input" type="number" name="" id="" />
-            </div>
-            <div>
-              <select class="am-pm" name="am" id="">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
-            </div>
-           </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Friday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <h4 class="me-2">:</h4>
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
+
+          <tr class="Tuesday">
+            <th scope="row">Satruday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <h4 class="me-2">:</h4>
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
+
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Sunday</th>
+            <td class="d-flex">
+              <div>
+                <input class="number-input" type="number" name="" id="hello" />
+              </div>
+              <h4 class="me-2">:</h4>
+
+              <div>
+                <input class="number-input" type="number" name="" id="" />
+              </div>
+              <div>
+                <select class="am-pm" name="am" id="">
+                  <option value="AM">AM</option>
+                  <option value="PM">PM</option>
+                </select>
+              </div>
+            </td>
+
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <div>
+                  <select class="am-pm" name="am" id="">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div class="d-flex">
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+                <h4 class="me-2">:</h4>
+                <div>
+                  <input class="number-input" type="number" name="" id="" />
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <span>00</span>
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr class="day p-2 t-footer">
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col">Total Hours:</th>
+            <th scope="col"></th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <button id="calculate">calculate</button>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
